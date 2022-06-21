@@ -270,6 +270,7 @@ class _HomeTaskState extends State<HomeTask> {
                                   image: AssetImage("assets/images/item_2.jpeg"),
                                   height: 230,
                                   width: MediaQuery.of(context).size.width,
+
                                   fit: BoxFit.cover,
                                 ),
                                 const SizedBox(width: 5,),
